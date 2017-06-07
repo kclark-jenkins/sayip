@@ -1,0 +1,23 @@
+{
+  "name": "sayip",
+  "version": "1.0.0",
+  "description": "NodeJS daemon that will run on boot and speak your IP address.  Useful for the raspberry pi.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kclark-jenkins/sayip.git"
+  },
+  "author": "Kristopher Clark",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kclark-jenkins/sayip/issues"
+  },
+  "homepage": "https://github.com/kclark-jenkins/sayip#readme",
+  "dependencies": {
+    "ip": "^1.1.5",
+    "say": "^0.11.0"
+  }
+}
